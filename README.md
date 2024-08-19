@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name : T.KAVINAJAI
-Roll no : 212223100020
-Date of experiment : 19.08.2024
+## Name : T.KAVINAJAI
+# Roll no : 212223100020
+# Date of experiment : 19.08.2024
 
 
 
@@ -119,13 +119,14 @@ ret
 
 
 ## Division alp 
-```org 100h
-
+```
+org 100h
 mov al,40h
 mov bl,2h
 div bl
 hlt
 ret
+```
 ## Output  
 
 ![image](https://github.com/user-attachments/assets/db511bb5-d1c0-4ab9-aa6e-b2a60a90314a)
