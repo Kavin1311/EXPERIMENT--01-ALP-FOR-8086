@@ -89,7 +89,7 @@ ret
 
 ## Output  
 
- ![image](https://github.com/user-attachments/assets/63157c7a-6a73-4b04-9030-9fac664aeb2b)
+![image](https://github.com/user-attachments/assets/234a956b-b293-4019-ae15-218875fed55b)
 
 ## Subtraction   of 8 bit numbers  ALP 
  ```
@@ -100,8 +100,9 @@ hlt
 
 ```
 ## Output  
+![image](https://github.com/user-attachments/assets/0c03b397-2ce7-4c2b-a0cd-612ca6cb1ced)
 
-![image](https://github.com/user-attachments/assets/42823d9c-e76e-41ff-843f-7cac4f06fc09)
+
 
 ## Multiplication alp 
 ```
@@ -115,7 +116,8 @@ ret
 
  ## Output  
 
-![image](https://github.com/user-attachments/assets/fb0a44c8-233b-4e63-bd92-23cf65417b1f)
+![image](https://github.com/user-attachments/assets/fac48f7f-c09b-489a-ab76-9f5fe7cb9fa7)
+
 
 
 ## Division alp 
@@ -129,7 +131,60 @@ ret
 ```
 ## Output  
 
-![image](https://github.com/user-attachments/assets/db511bb5-d1c0-4ab9-aa6e-b2a60a90314a)
+![image](https://github.com/user-attachments/assets/30057fcd-2943-485e-8b99-22db2e11db01)
+
+
+
+## Programs for logical operators
+
+# AND
+```
+MOV [SI],AX;
+MOV AX,0A32H;
+MOV BX,0B13H;
+AND AX,BX;
+```
+
+# OUTPUT
+![image](https://github.com/user-attachments/assets/a2b669fe-730d-4cb8-bcac-4bf7c45ae236)
+
+
+# OR
+```
+org 100h
+
+MOV SI,0532H;
+MOV AX,0A32H;
+MOV BX,0B13H;
+OR AX,BX;
+ret
+```
+
+# OUTPUT
+![image](https://github.com/user-attachments/assets/35309735-2f0e-4e12-8d8c-9498b55f7033)
+
+# NOT
+```
+MOV [SI+4],AX;
+MOV AX,0A32H;
+NOT AX;
+MOV [SI+6],AX;
+```
+# OUTPUT
+![image](https://github.com/user-attachments/assets/21d619db-6e4a-49e9-9e00-a45dc9590868)
+
+# XOR
+```
+org 100h
+
+MOV [SI+4],AX;
+MOV AX,0A32H;
+NOT AX;
+MOV [SI+6],AX;
+ret
+```
+# OUTPUT
+![image](https://github.com/user-attachments/assets/5bb3947a-d582-4cef-820f-4185214b8ef5)
 
 
 ## Result :
